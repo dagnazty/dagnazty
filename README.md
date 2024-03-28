@@ -1,6 +1,4 @@
 
-# Programming Languages Used in My GitHub Repositories
-
 <div>
   <a href="https://github.com/dagnazty"><img align="left" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
 </div>
@@ -42,7 +40,5 @@ Below is a table of some repositories I've contributed to.
 ## My GitHub Activity
 
 ![github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dagnazty&theme=high-contrast)
-
-## Tech Stack
 
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" /> <img src="https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" /> <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/-Batch-4D4D4D?style=flat-square&logo=windows&logoColor=white" alt="Batch" /> <img src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" /> <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
