@@ -45,7 +45,7 @@ readme_contents += """
 for name, url, description, stars, main_language in repos_details:
     stars_formatted = f"⭐{stars}"
     if main_language: 
-         language_badge_url = f"https://img.shields.io/badge/-{main_language.replace(' ', '_')}-informational?style=for-the-badge&logo={main_language.replace(' ', '').lower()}&logoColor=white"
+        language_badge_url = f"https://img.shields.io/badge/-{main_language.replace(' ', '_')}-informational?style=for-the-badge&logo={main_language.replace(' ', '').lower()}&logoColor=white"
         main_language_badge = f"![{main_language}]({language_badge_url})"
     else:
         main_language_badge = "N/A"
