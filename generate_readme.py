@@ -26,12 +26,7 @@ readme_contents = """
   <a href="https://github.com/dagnazty"><img align="left" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
 </div>
 
-| Language   | Repositories |
-|------------|--------------|
 """
-
-for language, count in languages_sorted.items():
-    readme_contents += f"| {language} | {count} |\n"
 
 readme_contents += """
 <br clear="left"/>
