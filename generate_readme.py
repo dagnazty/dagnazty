@@ -22,8 +22,6 @@ for repo in user.get_repos():
 languages_sorted = {k: v for k, v in sorted(languages.items(), key=lambda item: item[1], reverse=True)}
 
 readme_contents = """
-# Programming Languages Used in My GitHub Repositories
-
 <div>
   <a href="https://github.com/dagnazty"><img align="left" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
 </div>
