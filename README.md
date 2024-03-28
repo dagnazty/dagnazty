@@ -15,27 +15,20 @@
 
 ## Repositories I've Worked On
 
-Below is a table of some repositories I've contributed to.
-
 | Repository | Description | Stars | Main Language |
 |------------|-------------|-------|---------------|
-| [dagnazty](https://github.com/dagnazty/dagnazty) | No description provided. | ⭐ 0 | ![Python](https://img.shields.io/badge/Python-blue?style=flat-square&logo=python) |
-| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐ 1 | ![PowerShell](https://img.shields.io/badge/PowerShell-blue?style=flat-square&logo=powershell) |
-| [DScreen](https://github.com/dagnazty/DScreen) | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to Discord via webhook.  | ⭐ 1 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [dumbster](https://github.com/dagnazty/dumbster) | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | ⭐ 1 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [Flipinfo](https://github.com/dagnazty/Flipinfo) | Basic Windows info scraper. | ⭐ 2 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐ 3 | ![C](https://img.shields.io/badge/C-blue?style=flat-square&logo=c) |
-| [Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB) | Flipper Zero Bad USB payloads | ⭐ 5 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [GiP](https://github.com/dagnazty/GiP) | Grab external IP and post it to Discord via webhook. | ⭐ 0 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [Jiggle](https://github.com/dagnazty/Jiggle) | Mouse Jiggler for Flipper Zero. | ⭐ 1 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [m5Stack](https://github.com/dagnazty/m5Stack) | No description provided. | ⭐ 0 | ![C++](https://img.shields.io/badge/C++-blue?style=flat-square&logo=c++) |
-| [MooRoll](https://github.com/dagnazty/MooRoll) | Moo I'm a cow! | ⭐ 2 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [Processes](https://github.com/dagnazty/Processes) | Grabs all active processes' names and post them to Discord using webhook. | ⭐ 0 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
-| [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | ⭐ 0 | ![Python](https://img.shields.io/badge/Python-blue?style=flat-square&logo=python) |
-| [r](https://github.com/dagnazty/r) | No description provided. | ⭐ 0 | ![PowerShell](https://img.shields.io/badge/PowerShell-blue?style=flat-square&logo=powershell) |
-| [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | ⭐ 0 | ![PowerShell](https://img.shields.io/badge/PowerShell-blue?style=flat-square&logo=powershell) |
-| [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | No description provided. | ⭐ 1 | ![C](https://img.shields.io/badge/C-blue?style=flat-square&logo=c) |
-| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐ 13 | ![N/A](https://img.shields.io/badge/N/A-blue?style=flat-square&logo=n/a) |
+| [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
+| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐1 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
+| [DScreen](https://github.com/dagnazty/DScreen) | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to Discord via webhook.  | ⭐1 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+| [dumbster](https://github.com/dagnazty/dumbster) | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | ⭐1 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+| [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐3 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
+| [Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB) | Flipper Zero Bad USB payloads | ⭐5 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+| [m5Stack](https://github.com/dagnazty/m5Stack) | No description provided. | ⭐0 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
+| [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
+| [r](https://github.com/dagnazty/r) | No description provided. | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
+| [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
+| [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | No description provided. | ⭐1 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
+| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐13 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 
 ## My GitHub Activity
 
