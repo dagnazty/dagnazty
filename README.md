@@ -20,7 +20,7 @@
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
 | [r](https://github.com/dagnazty/r) | No description provided. | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
-| [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | ⭐1 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
+| [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | ⭐2 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
 | [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐12 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 
 ## My GitHub Activity
