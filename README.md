@@ -11,11 +11,11 @@
 | Repository | Description | Stars | Main Language |
 |------------|-------------|-------|---------------|
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐1 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
+| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐2 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [DScreen](https://github.com/dagnazty/DScreen) | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to Discord via webhook.  | ⭐4 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 | [dumbster](https://github.com/dagnazty/dumbster) | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | ⭐5 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
-| [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐5 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
-| [Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB) | Flipper Zero Bad USB payloads | ⭐9 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+| [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐6 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
+| [Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB) | Flipper Zero Bad USB payloads | ⭐10 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | ⭐0 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
