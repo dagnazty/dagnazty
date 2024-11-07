@@ -11,7 +11,7 @@
 | Repository | Description | Stars | Main Language |
 |------------|-------------|-------|---------------|
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐2 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
+| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐3 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [DScreen](https://github.com/dagnazty/DScreen) | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to Discord via webhook.  | ⭐5 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 | [dumbster](https://github.com/dagnazty/dumbster) | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | ⭐6 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 | [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐6 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
@@ -22,7 +22,7 @@
 | [r](https://github.com/dagnazty/r) | No description provided. | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | ⭐3 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
-| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐20 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐21 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 
 ## My GitHub Activity
 
