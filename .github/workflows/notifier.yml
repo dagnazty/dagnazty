@@ -16,12 +16,12 @@ on:
   workflow_dispatch:    # Enables manual triggering
 
 jobs:
-  notify_discord:
+  notify_events:
     runs-on: ubuntu-latest
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && github.event_name != 'workflow_dispatch'
 
     steps:
-      - name: Send Notification to Discord
+      - name: Send Event Notification to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
@@ -42,18 +42,43 @@ jobs:
           GITHUB_EVENT_RELEASE_NAME: ${{ github.event.release.name || '' }}
         run: |
           if [ "${GITHUB_EVENT_NAME}" = "push" ]; then
-            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🔔 Push Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Pusher:** \`${GITHUB_ACTOR}\`\n**Branch:** \`${GITHUB_REF}\`\n**Commit Message:** \"${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}\"\n**URL:** <${GITHUB_EVENT_HEAD_COMMIT_URL}>\", \"color\": 5814783}]}" $DISCORD_WEBHOOK_URL
+            curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Push Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Pusher:** `'${GITHUB_ACTOR}'`\n**Branch:** `'${GITHUB_REF}'`\n**Commit Message:** "'${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}'"\n**URL:** <'${GITHUB_EVENT_HEAD_COMMIT_URL}'>", "color": 5814783}]}' $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
-            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🔔 Pull Request Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**PR:** <${GITHUB_EVENT_PULL_REQUEST_HTML_URL}|#${GITHUB_EVENT_NUMBER}> - \`${GITHUB_EVENT_PULL_REQUEST_TITLE}\`\n**Action:** \`${GITHUB_EVENT_ACTION}\`\n**Author:** \`${GITHUB_ACTOR}\`\", \"color\": 3447003}]}" $DISCORD_WEBHOOK_URL
+            curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Pull Request Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**PR:** <'${GITHUB_EVENT_PULL_REQUEST_HTML_URL}'|#'${GITHUB_EVENT_NUMBER}'> - `'${GITHUB_EVENT_PULL_REQUEST_TITLE}'`\n**Action:** `'${GITHUB_EVENT_ACTION}'`\n**Author:** `'${GITHUB_ACTOR}'`", "color": 3447003}]}' $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "issues" ]; then
-            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🔔 Issue Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Issue:** <${GITHUB_EVENT_ISSUE_HTML_URL}|#${GITHUB_EVENT_ISSUE_NUMBER}> - \`${GITHUB_EVENT_ISSUE_TITLE}\`\n**Action:** \`${GITHUB_EVENT_ACTION}\`\n**Author:** \`${GITHUB_ACTOR}\`\", \"color\": 15158332}]}" $DISCORD_WEBHOOK_URL
+            curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Issue Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Issue:** <'${GITHUB_EVENT_ISSUE_HTML_URL}'|#'${GITHUB_EVENT_ISSUE_NUMBER}'> - `'${GITHUB_EVENT_ISSUE_TITLE}'`\n**Action:** `'${GITHUB_EVENT_ACTION}'`\n**Author:** `'${GITHUB_ACTOR}'`", "color": 15158332}]}' $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "release" ]; then
-            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🔔 Release Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Release:** <${GITHUB_EVENT_RELEASE_HTML_URL}|${GITHUB_EVENT_RELEASE_NAME}>\n**Action:** \`${GITHUB_EVENT_ACTION}\`\n**Author:** \`${GITHUB_ACTOR}\`\", \"color\": 3066993}]}" $DISCORD_WEBHOOK_URL
-          elif [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
-            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🛠️ Manual Trigger\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Triggered By:** \`${GITHUB_ACTOR}\`\n**Reference:** \`${GITHUB_REF}\`\n**Commit:** <https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}|${GITHUB_SHA}>\", \"color\": 3447003}]}" $DISCORD_WEBHOOK_URL
-          else
-            echo "No matching event to notify."
+            curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Release Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Release:** <'${GITHUB_EVENT_RELEASE_HTML_URL}'|'${GITHUB_EVENT_RELEASE_NAME}'>\n**Action:** `'${GITHUB_EVENT_ACTION}'`\n**Author:** `'${GITHUB_ACTOR}'`", "color": 3066993}]}' $DISCORD_WEBHOOK_URL
           fi
+
+  notify_manual:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Send All Notifications to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_REF: ${{ github.ref }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: |
+          # Push Event Notification (using current commit)
+          curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Push Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Pusher:** `'${GITHUB_ACTOR}'`\n**Branch:** `'${GITHUB_REF}'`\n**Commit:** <https://github.com/'${GITHUB_REPOSITORY}'/commit/'${GITHUB_SHA}'|'${GITHUB_SHA}'>", "color": 5814783}]}' $DISCORD_WEBHOOK_URL
+
+          # Pull Request Event Notification (dummy data)
+          curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Pull Request Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**PR:** <https://github.com/'${GITHUB_REPOSITORY}'/pull/1|#1> - `Manual PR Title`\n**Action:** `opened`\n**Author:** `'${GITHUB_ACTOR}'`", "color": 3447003}]}' $DISCORD_WEBHOOK_URL
+
+          # Issue Event Notification (dummy data)
+          curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Issue Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Issue:** <https://github.com/'${GITHUB_REPOSITORY}'/issues/1|#1> - `Manual Issue Title`\n**Action:** `opened`\n**Author:** `'${GITHUB_ACTOR}'`", "color": 15158332}]}' $DISCORD_WEBHOOK_URL
+
+          # Release Event Notification (dummy data)
+          curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🔔 Release Event", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Release:** <https://github.com/'${GITHUB_REPOSITORY}'/releases/tag/v1.0|v1.0>\n**Action:** `published`\n**Author:** `'${GITHUB_ACTOR}'`", "color": 3066993}]}' $DISCORD_WEBHOOK_URL
+
+          # Star Count Update
+          STARS=$(curl -s https://api.github.com/repos/${{ github.repository }} | grep stargazers_count | awk '{print $2}' | tr -d ',')
+          curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🌟 Star Count Update\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Total Stars:** \`${STARS}\`\n**Thank you for the support!**\", \"color\": 3066993}]}" $DISCORD_WEBHOOK_URL
 
   notify_stars:
     runs-on: ubuntu-latest
@@ -72,4 +97,4 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           STARS: ${{ steps.get_stars.outputs.stars }}
         run: |
-          curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://i.imgur.com/3aaoxTE.gif\", \"embeds\": [{\"title\": \"🌟 Star Count Update\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Total Stars:** \`${STARS}\`\n**Thank you for the support!**\", \"color\": 3066993}]}" $DISCORD_WEBHOOK_URL
+          curl -H "Content-Type: application/json" -d '{"username": "Github", "avatar_url": "https://i.imgur.com/3aaoxTE.gif", "embeds": [{"title": "🌟 Star Count Update", "description": "**Repository:** `'${GITHUB_REPOSITORY}'`\n**Total Stars:** `'${STARS}'`\n**Thank you for the support!**", "color": 3066993}]}' $DISCORD_WEBHOOK_URL
