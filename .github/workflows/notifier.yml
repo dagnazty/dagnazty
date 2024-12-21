@@ -13,42 +13,67 @@ on:
     types: [published, unpublished, created, edited, deleted, prereleased, released]
   schedule:
     - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:    # Enables manual triggering
 
 jobs:
   notify_discord:
     runs-on: ubuntu-latest
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule'   # Excludes scheduled events
 
     steps:
       - name: Send Notification to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_REF: ${{ github.ref }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_EVENT_HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message || '' }}
+          GITHUB_EVENT_HEAD_COMMIT_URL: ${{ github.event.head_commit.url || '' }}
+          GITHUB_EVENT_PULL_REQUEST_HTML_URL: ${{ github.event.pull_request.html_url || '' }}
+          GITHUB_EVENT_NUMBER: ${{ github.event.number || '' }}
+          GITHUB_EVENT_PULL_REQUEST_TITLE: ${{ github.event.pull_request.title || '' }}
+          GITHUB_EVENT_ACTION: ${{ github.event.action || '' }}
+          GITHUB_EVENT_ISSUE_HTML_URL: ${{ github.event.issue.html_url || '' }}
+          GITHUB_EVENT_ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
+          GITHUB_EVENT_ISSUE_TITLE: ${{ github.event.issue.title || '' }}
+          GITHUB_EVENT_RELEASE_HTML_URL: ${{ github.event.release.html_url || '' }}
+          GITHUB_EVENT_RELEASE_NAME: ${{ github.event.release.name || '' }}
         run: |
           if [ "${GITHUB_EVENT_NAME}" = "push" ]; then
             curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Push Event**
-            **Repository:** \`${GITHUB_REPOSITORY}\`
-            **Pusher:** \`${GITHUB_ACTOR}\`
-            **Branch:** \`${GITHUB_REF}\`
-            **Commit Message:** \"${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}\"
-            **URL:** <${GITHUB_EVENT_HEAD_COMMIT_URL}>\"}" $DISCORD_WEBHOOK_URL
+**Repository:** \`${GITHUB_REPOSITORY}\`
+**Pusher:** \`${GITHUB_ACTOR}\`
+**Branch:** \`${GITHUB_REF}\`
+**Commit Message:** \"${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}\"
+**URL:** <${GITHUB_EVENT_HEAD_COMMIT_URL}>\"}" $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
             curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Pull Request Event**
-            **Repository:** \`${GITHUB_REPOSITORY}\`
-            **PR:** <${GITHUB_EVENT_PULL_REQUEST_HTML_URL}|#${GITHUB_EVENT_NUMBER}> - \`${GITHUB_EVENT_PULL_REQUEST_TITLE}\`
-            **Action:** \`${GITHUB_EVENT_ACTION}\`
-            **Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+**Repository:** \`${GITHUB_REPOSITORY}\`
+**PR:** <${GITHUB_EVENT_PULL_REQUEST_HTML_URL}|#${GITHUB_EVENT_NUMBER}> - \`${GITHUB_EVENT_PULL_REQUEST_TITLE}\`
+**Action:** \`${GITHUB_EVENT_ACTION}\`
+**Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "issues" ]; then
             curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Issue Event**
-            **Repository:** \`${GITHUB_REPOSITORY}\`
-            **Issue:** <${GITHUB_EVENT_ISSUE_HTML_URL}|#${GITHUB_EVENT_ISSUE_NUMBER}> - \`${GITHUB_EVENT_ISSUE_TITLE}\`
-            **Action:** \`${GITHUB_EVENT_ACTION}\`
-            **Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+**Repository:** \`${GITHUB_REPOSITORY}\`
+**Issue:** <${GITHUB_EVENT_ISSUE_HTML_URL}|#${GITHUB_EVENT_ISSUE_NUMBER}> - \`${GITHUB_EVENT_ISSUE_TITLE}\`
+**Action:** \`${GITHUB_EVENT_ACTION}\`
+**Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "release" ]; then
             curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Release Event**
-            **Repository:** \`${GITHUB_REPOSITORY}\`
-            **Release:** <${GITHUB_EVENT_RELEASE_HTML_URL}|${GITHUB_EVENT_RELEASE_NAME}>
-            **Action:** \`${GITHUB_EVENT_ACTION}\`
-            **Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+**Repository:** \`${GITHUB_REPOSITORY}\`
+**Release:** <${GITHUB_EVENT_RELEASE_HTML_URL}|${GITHUB_EVENT_RELEASE_NAME}>
+**Action:** \`${GITHUB_EVENT_ACTION}\`
+**Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+          elif [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            curl -H "Content-Type: application/json" -d "{\"content\": \"**🛠️ Manual Trigger**
+**Repository:** \`${GITHUB_REPOSITORY}\`
+**Triggered By:** \`${GITHUB_ACTOR}\`
+**Reference:** \`${GITHUB_REF}\`
+**Commit:** <https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}|${GITHUB_SHA}>\"}" $DISCORD_WEBHOOK_URL
+          else
+            echo "No matching event to notify."
           fi
 
   notify_stars:
@@ -60,13 +85,15 @@ jobs:
         id: get_stars
         run: |
           STARS=$(curl -s https://api.github.com/repos/${{ github.repository }} | grep stargazers_count | awk '{print $2}' | tr -d ',')
-          echo "::set-output name=stars::$STARS"
+          echo "stars=${STARS}" >> $GITHUB_OUTPUT
 
       - name: Send Star Count to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          STARS: ${{ steps.get_stars.outputs.stars }}
         run: |
           curl -H "Content-Type: application/json" -d "{\"content\": \"**🌟 Star Count Update**
-          **Repository:** \`${{ github.repository }}\`
-          **Total Stars:** \`${{ steps.get_stars.outputs.stars }}\`
-          **Thank you for the support!**\"}" $DISCORD_WEBHOOK_URL
+**Repository:** \`${GITHUB_REPOSITORY}\`
+**Total Stars:** \`${STARS}\`
+**Thank you for the support!**\"}" $DISCORD_WEBHOOK_URL
