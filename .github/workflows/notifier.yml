@@ -42,7 +42,7 @@ jobs:
           GITHUB_EVENT_RELEASE_NAME: ${{ github.event.release.name || '' }}
         run: |
           if [ "${GITHUB_EVENT_NAME}" = "push" ]; then
-            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://imgur.com/3aaoxTE", \"embeds\": [{\"title\": \"🔔 Push Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Pusher:** \`${GITHUB_ACTOR}\`\n**Branch:** \`${GITHUB_REF}\`\n**Commit Message:** \"${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}\"\n**URL:** <${GITHUB_EVENT_HEAD_COMMIT_URL}>\", \"color\": 5814783}]}" $DISCORD_WEBHOOK_URL
+            curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://imgur.com/3aaoxTE\", \"embeds\": [{\"title\": \"🔔 Push Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**Pusher:** \`${GITHUB_ACTOR}\`\n**Branch:** \`${GITHUB_REF}\`\n**Commit Message:** \"${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}\"\n**URL:** <${GITHUB_EVENT_HEAD_COMMIT_URL}>\", \"color\": 5814783}]}" $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
             curl -H "Content-Type: application/json" -d "{\"username\": \"Github\", \"avatar_url\": \"https://imgur.com/3aaoxTE\", \"embeds\": [{\"title\": \"🔔 Pull Request Event\", \"description\": \"**Repository:** \`${GITHUB_REPOSITORY}\`\n**PR:** <${GITHUB_EVENT_PULL_REQUEST_HTML_URL}|#${GITHUB_EVENT_NUMBER}> - \`${GITHUB_EVENT_PULL_REQUEST_TITLE}\`\n**Action:** \`${GITHUB_EVENT_ACTION}\`\n**Author:** \`${GITHUB_ACTOR}\`\", \"color\": 3447003}]}" $DISCORD_WEBHOOK_URL
           elif [ "${GITHUB_EVENT_NAME}" = "issues" ]; then
