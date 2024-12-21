@@ -1,0 +1,72 @@
+name: GitHub Discord Notifier
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    types: [opened, closed, reopened, synchronize, labeled, unlabeled]
+  issues:
+    types: [opened, closed, reopened, labeled, unlabeled]
+  release:
+    types: [published, unpublished, created, edited, deleted, prereleased, released]
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+
+jobs:
+  notify_discord:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'schedule'
+
+    steps:
+      - name: Send Notification to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ "${GITHUB_EVENT_NAME}" = "push" ]; then
+            curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Push Event**
+            **Repository:** \`${GITHUB_REPOSITORY}\`
+            **Pusher:** \`${GITHUB_ACTOR}\`
+            **Branch:** \`${GITHUB_REF}\`
+            **Commit Message:** \"${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}\"
+            **URL:** <${GITHUB_EVENT_HEAD_COMMIT_URL}>\"}" $DISCORD_WEBHOOK_URL
+          elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
+            curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Pull Request Event**
+            **Repository:** \`${GITHUB_REPOSITORY}\`
+            **PR:** <${GITHUB_EVENT_PULL_REQUEST_HTML_URL}|#${GITHUB_EVENT_NUMBER}> - \`${GITHUB_EVENT_PULL_REQUEST_TITLE}\`
+            **Action:** \`${GITHUB_EVENT_ACTION}\`
+            **Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+          elif [ "${GITHUB_EVENT_NAME}" = "issues" ]; then
+            curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Issue Event**
+            **Repository:** \`${GITHUB_REPOSITORY}\`
+            **Issue:** <${GITHUB_EVENT_ISSUE_HTML_URL}|#${GITHUB_EVENT_ISSUE_NUMBER}> - \`${GITHUB_EVENT_ISSUE_TITLE}\`
+            **Action:** \`${GITHUB_EVENT_ACTION}\`
+            **Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+          elif [ "${GITHUB_EVENT_NAME}" = "release" ]; then
+            curl -H "Content-Type: application/json" -d "{\"content\": \"**🔔 Release Event**
+            **Repository:** \`${GITHUB_REPOSITORY}\`
+            **Release:** <${GITHUB_EVENT_RELEASE_HTML_URL}|${GITHUB_EVENT_RELEASE_NAME}>
+            **Action:** \`${GITHUB_EVENT_ACTION}\`
+            **Author:** \`${GITHUB_ACTOR}\`\"}" $DISCORD_WEBHOOK_URL
+          fi
+
+  notify_stars:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+
+    steps:
+      - name: Get Current Star Count
+        id: get_stars
+        run: |
+          STARS=$(curl -s https://api.github.com/repos/${{ github.repository }} | grep stargazers_count | awk '{print $2}' | tr -d ',')
+          echo "::set-output name=stars::$STARS"
+
+      - name: Send Star Count to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" -d "{\"content\": \"**🌟 Star Count Update**
+          **Repository:** \`${{ github.repository }}\`
+          **Total Stars:** \`${{ steps.get_stars.outputs.stars }}\`
+          **Thank you for the support!**\"}" $DISCORD_WEBHOOK_URL
