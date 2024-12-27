@@ -10,7 +10,7 @@
 
 | Repository | Description | Stars | Main Language |
 |------------|-------------|-------|---------------|
-| [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
+| [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | ⭐1 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
 | [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐3 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [DScreen](https://github.com/dagnazty/DScreen) | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to Discord via webhook.  | ⭐5 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
