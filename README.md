@@ -1,6 +1,6 @@
 
-<div align="center">
-  <a href="https://github.com/dagnazty"><img align="left" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
+<div>
+  <a href="https://github.com/dagnazty"><img align="center" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
 </div>
 
 
