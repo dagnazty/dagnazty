@@ -19,7 +19,7 @@
 | [flipperusb](https://github.com/dagnazty/flipperusb) | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device through your browser. | ⭐5 | ![JavaScript](https://img.shields.io/badge/-JavaScript-informational?style=for-the-badge&logo=javascript&logoColor=white) |
 | [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐6 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
 | [Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB) | Flipper Zero Bad USB payloads | ⭐15 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
-| [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
+| [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | ⭐1 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | ⭐0 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
 | [r](https://github.com/dagnazty/r) | No description provided. | ⭐1 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
