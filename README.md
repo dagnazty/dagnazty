@@ -27,7 +27,7 @@
 | [Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial) | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and BadUSB scripting for enhanced security testing and automation. | ⭐16 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | ⭐3 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
-| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐23 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐22 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
 
 ## My GitHub Activity
 
