@@ -17,44 +17,135 @@ for repo in user.get_repos():
             languages[repo.language] = 1
 
     if not repo.fork:
-        repos_details.append((repo.name, repo.html_url, repo.description or "No description provided.", repo.stargazers_count, repo.language or "N/A"))
+        repos_details.append((
+            repo.name,
+            repo.html_url,
+            repo.description or "",
+            repo.stargazers_count,
+            repo.language or "",
+        ))
 
-languages_sorted = {k: v for k, v in sorted(languages.items(), key=lambda item: item[1], reverse=True)}
+# Sort repos by stars descending
+repos_details.sort(key=lambda x: x[3], reverse=True)
 
-readme_contents = """
-<div>
-  <a href="https://github.com/dagnazty"><img align="left" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
-</div>
+languages_sorted = sorted(languages.items(), key=lambda item: item[1], reverse=True)
 
+
+def truncate(text, limit):
+    """Truncate text at a word boundary."""
+    if len(text) <= limit:
+        return text
+    truncated = text[:limit]
+    last_space = truncated.rfind(" ")
+    if last_space > limit // 2:
+        truncated = truncated[:last_space]
+    return truncated.rstrip(".,;:") + "..."
+
+
+# --- Build README ---
+
+readme = """\
+<h1 align="center">dag</h1>
+<p align="center">
+  <em>Security researcher & developer building tools for hardware hacking, penetration testing, and embedded systems.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/dagnazty?tab=followers">
+    <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
+  </a>
+  <a href="https://github.com/dagnazty?tab=repositories">
+    <img src="https://img.shields.io/badge/Repos-{repo_count}-blue?style=flat" alt="Repos" />
+  </a>
+</p>
+
+---
+
+## About
+
+I build security tools, firmware, and utilities focused on **Flipper Zero**, **M5Stack devices**, **ESP32**, and **WiFi security research**. Most of my work lives at the intersection of hardware hacking, embedded development, and offensive security tooling.
+
+---
+
+## Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dagnazty&theme=github-dark-blue&hide_border=true" height="170" />
+</p>
+
+---
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+</p>
+
+""".format(repo_count=len(repos_details))
+
+# --- Featured Projects (top repos by stars, minimum 5 stars) ---
+
+featured = [r for r in repos_details if r[3] >= 5]
+featured_names = {r[0] for r in featured}
+
+if featured:
+    readme += """---
+
+## Featured Projects
+
+| Project | Description | Stars |
+|---------|-------------|:-----:|
 """
+    for name, url, description, stars, lang in featured:
+        lang_badge = f" `{lang}`" if lang else ""
+        desc = truncate(description, 110) if description else "—"
+        readme += f"| **[{name}]({url})**{lang_badge} | {desc} | {stars} |\n"
 
-readme_contents += """
-<br clear="left"/>
+# --- Other Repositories (exclude featured) ---
 
-## Repositories I've Worked On
+other_repos = [r for r in repos_details if r[0] not in featured_names]
 
-| Repository | Description | Stars | Main Language |
-|------------|-------------|-------|---------------|
+if other_repos:
+    readme += """
+---
+
+## Other Repositories
+
+| Repository | Description | Stars | Language |
+|------------|-------------|:-----:|----------|
 """
+    for name, url, description, stars, lang in other_repos:
+        lang_display = f"`{lang}`" if lang else "—"
+        desc = truncate(description, 90) if description else "—"
+        readme += f"| [{name}]({url}) | {desc} | {stars} | {lang_display} |\n"
 
-for name, url, description, stars, main_language in repos_details:
-    stars_formatted = f"⭐{stars}"
-    if main_language: 
-        language_badge_url = f"https://img.shields.io/badge/-{main_language.replace(' ', '_')}-informational?style=for-the-badge&logo={main_language.replace(' ', '').lower()}&logoColor=white"
-        main_language_badge = f"![{main_language}]({language_badge_url})"
-    else:
-        main_language_badge = "N/A"
-    
-    readme_contents += f"| [{name}]({url}) | {description} | {stars_formatted} | {main_language_badge} |\n"
+# --- Activity Graph ---
 
+readme += """
+---
 
-readme_contents += """
-## My GitHub Activity
+## Activity
 
-![github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dagnazty&theme=high-contrast)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dagnazty&theme=github-compact&hide_border=true" alt="Activity Graph" />
+</p>
 
-<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" /> <img src="https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" /> <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/-Batch-4D4D4D?style=flat-square&logo=windows&logoColor=white" alt="Batch" /> <img src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" /> <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dagnazty&style=flat-square&color=blue" alt="Profile Views" />
+</p>
 """
 
 with open("README.md", "w") as readme_file:
-    readme_file.write(readme_contents)
+    readme_file.write(readme)

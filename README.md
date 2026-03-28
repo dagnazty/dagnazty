@@ -1,38 +1,92 @@
+<h1 align="center">dag</h1>
+<p align="center">
+  <em>Security researcher & developer building tools for hardware hacking, penetration testing, and embedded systems.</em>
+</p>
 
-<div>
-  <a href="https://github.com/dagnazty"><img align="left" src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=radical" /></a>
-</div>
+<p align="center">
+  <a href="https://github.com/dagnazty?tab=followers">
+    <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
+  </a>
+  <a href="https://github.com/dagnazty?tab=repositories">
+    <img src="https://img.shields.io/badge/Repos-20-blue?style=flat" alt="Repos" />
+  </a>
+</p>
 
+---
 
-<br clear="left"/>
+## About
 
-## Repositories I've Worked On
+I build security tools, firmware, and utilities focused on **Flipper Zero**, **M5Stack devices**, **ESP32**, and **WiFi security research**. Most of my work lives at the intersection of hardware hacking, embedded development, and offensive security tooling.
 
-| Repository | Description | Stars | Main Language |
-|------------|-------------|-------|---------------|
-| [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | ⭐4 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | ⭐0 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [DagShell](https://github.com/dagnazty/DagShell) | No description provided. | ⭐4 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
-| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a Windows environment. | ⭐4 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
-| [DScreen](https://github.com/dagnazty/DScreen) | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to Discord via webhook.  | ⭐7 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
-| [dumbster](https://github.com/dagnazty/dumbster) | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | ⭐6 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
-| [ESP32](https://github.com/dagnazty/ESP32) | No description provided. | ⭐3 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
-| [Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel) | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi network testing and penetration testing. | ⭐59 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2) | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's compatible with Cardputer, Atoms3, Fire, core2. You can scan, monitor, and interact with WiFi networks in a controlled environment. This project is designed for educational purposes, aiding in understanding network security and vulnerabilities. | ⭐4 | ![HTML](https://img.shields.io/badge/-HTML-informational?style=for-the-badge&logo=html&logoColor=white) |
-| [flipperusb](https://github.com/dagnazty/flipperusb) | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device through your browser. | ⭐10 | ![JavaScript](https://img.shields.io/badge/-JavaScript-informational?style=for-the-badge&logo=javascript&logoColor=white) |
-| [Flipper_Apps](https://github.com/dagnazty/Flipper_Apps) | Apps for Flipper Zero | ⭐16 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
-| [Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB) | Flipper Zero Bad USB payloads | ⭐30 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
-| [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | ⭐1 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | ⭐1 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
-| [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | ⭐1 | ![Python](https://img.shields.io/badge/-Python-informational?style=for-the-badge&logo=python&logoColor=white) |
-| [r](https://github.com/dagnazty/r) | No description provided. | ⭐1 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
-| [Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial) | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and BadUSB scripting for enhanced security testing and automation. | ⭐21 | ![C++](https://img.shields.io/badge/-C++-informational?style=for-the-badge&logo=c++&logoColor=white) |
-| [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | ⭐0 | ![PowerShell](https://img.shields.io/badge/-PowerShell-informational?style=for-the-badge&logo=powershell&logoColor=white) |
-| [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | ⭐3 | ![C](https://img.shields.io/badge/-C-informational?style=for-the-badge&logo=c&logoColor=white) |
-| [ZLaZagne](https://github.com/dagnazty/ZLaZagne) | LaZagne password recovery via Discord webhook for Flipper Zero. | ⭐22 | ![N/A](https://img.shields.io/badge/-N/A-informational?style=for-the-badge&logo=n/a&logoColor=white) |
+---
 
-## My GitHub Activity
+## Stats
 
-![github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dagnazty&theme=high-contrast)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dagnazty&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dagnazty&theme=github-dark-blue&hide_border=true" height="170" />
+</p>
 
-<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" /> <img src="https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" /> <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/-Batch-4D4D4D?style=flat-square&logo=windows&logoColor=white" alt="Batch" /> <img src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" /> <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+---
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+</p>
+
+---
+
+## Featured Projects
+
+| Project | Description | Stars |
+|---------|-------------|:-----:|
+| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI for managing the Evil-BW16 device, designed for ethical WiFi network testing and pentesting | 59 |
+| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 30 |
+| **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero | 22 |
+| **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial with WiFi captive portals, SSID management, Karma attacks, and BadUSB scripting | 21 |
+| **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 16 |
+| **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices | 10 |
+| **[DScreen](https://github.com/dagnazty/DScreen)** | Desktop screenshot and file enumeration tool with Discord webhook exfiltration | 7 |
+| **[dumbster](https://github.com/dagnazty/dumbster)** | Recycle Bin exfiltration tool with Discord webhook upload | 6 |
+
+---
+
+## Other Repositories
+
+| Repository | Description | Stars | Language |
+|------------|-------------|:-----:|----------|
+| [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
+| [DagShell](https://github.com/dagnazty/DagShell) | — | 4 | `C++` |
+| [DAT](https://github.com/dagnazty/DAT) | PowerShell script for in-depth auditing of Windows system components | 4 | `PowerShell` |
+| [Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2) | Ethical WiFi network testing and exploration tool for M5Stack devices | 4 | `HTML` |
+| [ESP32](https://github.com/dagnazty/ESP32) | — | 3 | — |
+| [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | Space Invaders for Flipper Zero (CFW Momentum) | 3 | `C` |
+| [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial | 1 | `Python` |
+| [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
+| [Python](https://github.com/dagnazty/Python) | Tools and payloads made in Python | 1 | `Python` |
+| [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
+| [VidBack](https://github.com/dagnazty/VidBack) | Screenshot and video uploader via Discord webhook | 0 | `PowerShell` |
+
+---
+
+## Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dagnazty&theme=github-compact&hide_border=true" alt="Activity Graph" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dagnazty&style=flat-square&color=blue" alt="Profile Views" />
+</p>
