@@ -58,6 +58,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 10 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 7 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 6 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 5 |
 
 ---
 
@@ -66,7 +67,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Repository | Description | Stars | Language |
 |------------|-------------|:-----:|----------|
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
-| [DagShell](https://github.com/dagnazty/DagShell) | — | 4 | `C++` |
 | [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system... | 4 | `PowerShell` |
 | [Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2) | Evil-M5Project is an innovative tool developed for ethical testing and exploration of... | 4 | `HTML` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 3 | — |
