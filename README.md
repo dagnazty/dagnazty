@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/dagnazty?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-20-blue?style=flat" alt="Repos" />
+    <img src="https://img.shields.io/badge/Repos-21-blue?style=flat" alt="Repos" />
   </a>
 </p>
 
@@ -50,15 +50,16 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 
 | Project | Description | Stars |
 |---------|-------------|:-----:|
-| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 62 |
-| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 32 |
+| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 63 |
+| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 33 |
+| **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 23 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 23 |
-| **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 22 |
-| **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 16 |
-| **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 10 |
+| **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 17 |
+| **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 11 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 7 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 6 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 6 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 5 |
+| **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 5 |
 
 ---
 
@@ -67,16 +68,16 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Repository | Description | Stars | Language |
 |------------|-------------|:-----:|----------|
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
-| [DAT](https://github.com/dagnazty/DAT) | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system... | 4 | `PowerShell` |
+| [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2) | Evil-M5Project is an innovative tool developed for ethical testing and exploration of... | 4 | `HTML` |
-| [ESP32](https://github.com/dagnazty/ESP32) | — | 3 | — |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
-| [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 1 | `Python` |
+| [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
+| [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 1 | `Python` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 1 | `Python` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
-| [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 0 | `Python` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
+| [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 0 | `C` |
 
 ---
 
