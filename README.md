@@ -76,8 +76,8 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 1 | `Python` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
+| [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
-| [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 0 | `C` |
 
 ---
 
