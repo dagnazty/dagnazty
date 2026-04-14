@@ -50,8 +50,8 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 
 | Project | Description | Stars |
 |---------|-------------|:-----:|
-| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 64 |
-| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 33 |
+| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 66 |
+| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 34 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 24 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 23 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 17 |
@@ -76,8 +76,8 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 1 | `Python` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
+| [sticks_and_stones](https://github.com/dagnazty/sticks_and_stones) | — | 1 | `C++` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
-| [sticks_and_stones](https://github.com/dagnazty/sticks_and_stones) | — | 0 | `C++` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
 ---
