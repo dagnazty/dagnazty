@@ -52,7 +52,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |---------|-------------|:-----:|
 | **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 74 |
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 37 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 31 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 32 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 27 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 24 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 22 |
@@ -70,7 +70,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |------------|-------------|:-----:|----------|
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
-| [M1-T-800](https://github.com/dagnazty/M1-T-800) | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin... | 3 | `C` |
+| [M1-T-800](https://github.com/dagnazty/M1-T-800) | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin... | 4 | `C` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 2 | `Python` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
