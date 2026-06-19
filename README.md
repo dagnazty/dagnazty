@@ -61,6 +61,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 6 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 6 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
+| **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 5 |
 
 ---
 
@@ -70,7 +71,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |------------|-------------|:-----:|----------|
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
-| [M1-T-800](https://github.com/dagnazty/M1-T-800) | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin... | 4 | `C` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 2 | `Python` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
