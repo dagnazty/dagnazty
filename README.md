@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/dagnazty?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-23-blue?style=flat" alt="Repos" />
+    <img src="https://img.shields.io/badge/Repos-24-blue?style=flat" alt="Repos" />
   </a>
 </p>
 
@@ -78,6 +78,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [sticks_and_stones](https://github.com/dagnazty/sticks_and_stones) | — | 2 | `C++` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
+| [Radio-Ink](https://github.com/dagnazty/Radio-Ink) | Firmware for the Xteink X3 and X4 e-paper display readers | 1 | `C` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
