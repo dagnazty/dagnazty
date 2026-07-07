@@ -71,12 +71,12 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |------------|-------------|:-----:|----------|
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
+| [Radio-Ink](https://github.com/dagnazty/Radio-Ink) | Firmware for the Xteink X3 and X4 e-paper display readers | 3 | `C` |
 | [sticks_and_stones](https://github.com/dagnazty/sticks_and_stones) | — | 3 | `C++` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 2 | `Python` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 2 | `Python` |
-| [Radio-Ink](https://github.com/dagnazty/Radio-Ink) | Firmware for the Xteink X3 and X4 e-paper display readers | 2 | `C` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
