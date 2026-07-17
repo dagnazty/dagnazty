@@ -63,6 +63,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 6 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 6 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
+| **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 5 |
 
 ---
 
@@ -72,7 +73,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |------------|-------------|:-----:|----------|
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
-| [sticks_and_stones](https://github.com/dagnazty/sticks_and_stones) | — | 4 | `C++` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 2 | `Python` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
