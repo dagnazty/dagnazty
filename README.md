@@ -56,7 +56,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 29 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 24 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 22 |
-| **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 13 |
+| **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 14 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 10 |
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 8 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 7 |
