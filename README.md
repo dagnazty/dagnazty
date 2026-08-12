@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/dagnazty?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-25-blue?style=flat" alt="Repos" />
+    <img src="https://img.shields.io/badge/Repos-26-blue?style=flat" alt="Repos" />
   </a>
 </p>
 
@@ -51,7 +51,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Project | Description | Stars |
 |---------|-------------|:-----:|
 | **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 77 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 38 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 39 |
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 38 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 29 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 24 |
@@ -81,6 +81,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
+| [Eli](https://github.com/dagnazty/Eli) | — | 0 | `C++` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
 ---
