@@ -78,10 +78,10 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 2 | `Python` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 2 | `Python` |
+| [awokxdag](https://github.com/dagnazty/awokxdag) | — | 1 | `C++` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
-| [awokxdag](https://github.com/dagnazty/awokxdag) | — | 0 | `C++` |
 | [Eli](https://github.com/dagnazty/Eli) | — | 0 | `C++` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
