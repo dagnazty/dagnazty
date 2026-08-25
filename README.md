@@ -75,10 +75,10 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [flipper-blackhat-os](https://github.com/dagnazty/flipper-blackhat-os) | — | 4 | `Python` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
+| [awokxdag](https://github.com/dagnazty/awokxdag) | — | 2 | `C++` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 2 | `Python` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 2 | `Python` |
-| [awokxdag](https://github.com/dagnazty/awokxdag) | — | 1 | `C++` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 1 | `C` |
