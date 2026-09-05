@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/dagnazty?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-27-blue?style=flat" alt="Repos" />
+    <img src="https://img.shields.io/badge/Repos-28-blue?style=flat" alt="Repos" />
   </a>
 </p>
 
@@ -76,13 +76,14 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [flipper-blackhat-os](https://github.com/dagnazty/flipper-blackhat-os) | — | 4 | `Python` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 3 | `Python` |
+| [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 3 | `C` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 2 | `Python` |
-| [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 2 | `C` |
 | [Eli](https://github.com/dagnazty/Eli) | — | 1 | `C++` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
+| [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 0 | `C` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
 ---
