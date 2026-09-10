@@ -51,8 +51,8 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Project | Description | Stars |
 |---------|-------------|:-----:|
 | **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 78 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 43 |
-| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 39 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 44 |
+| **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 40 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 31 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 24 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 21 |
@@ -81,9 +81,9 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
 | [Python](https://github.com/dagnazty/Python) | Tools and Payloads made in Python. | 2 | `Python` |
 | [Eli](https://github.com/dagnazty/Eli) | — | 1 | `C++` |
+| [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 1 | `C` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
-| [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 0 | `C` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
 ---
