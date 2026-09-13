@@ -51,7 +51,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Project | Description | Stars |
 |---------|-------------|:-----:|
 | **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 78 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 44 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 45 |
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 40 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 31 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 24 |
@@ -63,6 +63,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 7 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 7 |
 | **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 6 |
+| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 5 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
 
 ---
@@ -71,7 +72,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 
 | Repository | Description | Stars | Language |
 |------------|-------------|:-----:|----------|
-| [awokxdag](https://github.com/dagnazty/awokxdag) | — | 4 | `C++` |
 | [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
 | [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
