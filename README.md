@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/dagnazty?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-28-blue?style=flat" alt="Repos" />
+    <img src="https://img.shields.io/badge/Repos-29-blue?style=flat" alt="Repos" />
   </a>
 </p>
 
@@ -84,6 +84,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 1 | `C` |
 | [m5Stack](https://github.com/dagnazty/m5Stack) | m5 Devices | 1 | `C++` |
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
+| [omarchy-xp-theme](https://github.com/dagnazty/omarchy-xp-theme) | — | 0 | `Shell` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
 ---
