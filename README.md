@@ -51,7 +51,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Project | Description | Stars |
 |---------|-------------|:-----:|
 | **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 78 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 46 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 47 |
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 41 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 31 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 25 |
@@ -59,11 +59,13 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 15 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 13 |
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 11 |
-| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 9 |
+| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 10 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 8 |
 | **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 7 |
 | **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 7 |
+| **[chatgpt-gui](https://github.com/dagnazty/chatgpt-gui)** `Python` | ChatGPT GUI | 5 |
+| **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 5 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
 
 ---
@@ -72,8 +74,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 
 | Repository | Description | Stars | Language |
 |------------|-------------|:-----:|----------|
-| [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
-| [dagnazty](https://github.com/dagnazty/dagnazty) | About dagnazty | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [flipper-blackhat-os](https://github.com/dagnazty/flipper-blackhat-os) | — | 4 | `Python` |
 | [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 3 | `C` |
