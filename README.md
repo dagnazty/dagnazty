@@ -57,8 +57,8 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 25 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 21 |
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 15 |
+| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 13 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 13 |
-| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 12 |
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 11 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 8 |
