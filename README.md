@@ -62,9 +62,9 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 11 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 9 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
+| **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 8 |
 | **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 7 |
 | **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 7 |
-| **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 7 |
 | **[chatgpt-gui](https://github.com/dagnazty/chatgpt-gui)** `Python` | ChatGPT GUI | 5 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
 
