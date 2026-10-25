@@ -56,7 +56,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 30 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 26 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 21 |
-| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 19 |
+| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 20 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 17 |
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 16 |
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 11 |
@@ -76,7 +76,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |------------|-------------|:-----:|----------|
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [flipper-blackhat-os](https://github.com/dagnazty/flipper-blackhat-os) | — | 4 | `Python` |
-| [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 3 | `C` |
+| [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 4 | `C` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 3 | `C` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
