@@ -61,12 +61,13 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 16 |
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 11 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 9 |
+| **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 9 |
+| **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 8 |
+| **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 8 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
-| **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 8 |
-| **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 7 |
-| **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 7 |
 | **[chatgpt-gui](https://github.com/dagnazty/chatgpt-gui)** `Python` | ChatGPT GUI | 5 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
+| **[Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger)** `C` | Flipper Zero Keylogger | 5 |
 
 ---
 
@@ -76,7 +77,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 |------------|-------------|:-----:|----------|
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [flipper-blackhat-os](https://github.com/dagnazty/flipper-blackhat-os) | — | 4 | `Python` |
-| [Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger) | Flipper Zero Keylogger | 4 | `C` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 3 | `C` |
 | [Yappy_Invaders](https://github.com/dagnazty/Yappy_Invaders) | First version of Space Invaders for Flipper Zero for CFW Momentum | 3 | `C` |
 | [M5Dial_SPIFFS_Uploader](https://github.com/dagnazty/M5Dial_SPIFFS_Uploader) | SPIFFS uploader for M5Dial  | 2 | `Python` |
