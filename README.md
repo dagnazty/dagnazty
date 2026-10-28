@@ -65,9 +65,9 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 8 |
 | **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 8 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
+| **[Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger)** `C` | Flipper Zero Keylogger | 6 |
 | **[chatgpt-gui](https://github.com/dagnazty/chatgpt-gui)** `Python` | ChatGPT GUI | 5 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
-| **[Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger)** `C` | Flipper Zero Keylogger | 5 |
 
 ---
 
