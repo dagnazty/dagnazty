@@ -55,14 +55,14 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 44 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 31 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 26 |
+| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 22 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 21 |
-| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 20 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 18 |
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 16 |
 | **[M1-T-800](https://github.com/dagnazty/M1-T-800)** `C` | ESP32-C6 SPI AT firmware for the Monstatek M1 — pre-configured module with correct pin mapping and SPI... | 11 |
+| **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 9 |
 | **[dumbster](https://github.com/dagnazty/dumbster)** | Zip all files from Recycle Bin and uploads zip files to Discord via webhook. | 9 |
 | **[sticks_and_stones](https://github.com/dagnazty/sticks_and_stones)** `C++` | — | 9 |
-| **[dagnazty](https://github.com/dagnazty/dagnazty)** `Python` | About dagnazty | 8 |
 | **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 8 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
 | **[Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger)** `C` | Flipper Zero Keylogger | 6 |
