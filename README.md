@@ -66,7 +66,6 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | **[DAT](https://github.com/dagnazty/DAT)** `PowerShell` | dag's Audit Tool is a PowerShell script designed for in-depth auditing of various system components in a... | 8 |
 | **[DScreen](https://github.com/dagnazty/DScreen)** | Scans and takes a screenshot of Desktop and saves all files, folders and applications names and uploads to... | 8 |
 | **[Flipper_Keylogger](https://github.com/dagnazty/Flipper_Keylogger)** `C` | Flipper Zero Keylogger | 6 |
-| **[chatgpt-gui](https://github.com/dagnazty/chatgpt-gui)** `Python` | ChatGPT GUI | 5 |
 | **[Evil-M5Core2](https://github.com/dagnazty/Evil-M5Core2)** `HTML` | Evil-M5Project is an innovative tool developed for ethical testing and exploration of WiFi networks. It's... | 5 |
 
 ---
@@ -75,6 +74,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 
 | Repository | Description | Stars | Language |
 |------------|-------------|:-----:|----------|
+| [chatgpt-gui](https://github.com/dagnazty/chatgpt-gui) | ChatGPT GUI | 4 | `Python` |
 | [ESP32](https://github.com/dagnazty/ESP32) | — | 4 | — |
 | [flipper-blackhat-os](https://github.com/dagnazty/flipper-blackhat-os) | — | 4 | `Python` |
 | [WorldMonitor_CYD](https://github.com/dagnazty/WorldMonitor_CYD) | — | 3 | `C` |
