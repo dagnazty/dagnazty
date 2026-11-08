@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/followers/dagnazty?label=Followers&style=social" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/dagnazty?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-31-blue?style=flat" alt="Repos" />
+    <img src="https://img.shields.io/badge/Repos-32-blue?style=flat" alt="Repos" />
   </a>
 </p>
 
@@ -86,6 +86,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
 | [fm1-esp32-unbrick](https://github.com/dagnazty/fm1-esp32-unbrick) | — | 0 | `C` |
 | [omarchy-xp-theme](https://github.com/dagnazty/omarchy-xp-theme) | — | 0 | `Shell` |
+| [PERF-1](https://github.com/dagnazty/PERF-1) | Live-performance firmware for the M-VAVE FM-1. Ten genres of self-playing music you steer... | 0 | — |
 | [phreak-fm1](https://github.com/dagnazty/phreak-fm1) | A live groovebox firmware for the M-VAVE FM-1 | 0 | `C` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
