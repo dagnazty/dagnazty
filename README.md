@@ -51,11 +51,11 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | Project | Description | Stars |
 |---------|-------------|:-----:|
 | **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 83 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 48 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 49 |
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 45 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 31 |
 | **[ZLaZagne](https://github.com/dagnazty/ZLaZagne)** | LaZagne password recovery via Discord webhook for Flipper Zero. | 26 |
-| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 23 |
+| **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 24 |
 | **[Flipper_Apps](https://github.com/dagnazty/Flipper_Apps)** `C` | Apps for Flipper Zero | 21 |
 | **[Radio-Ink](https://github.com/dagnazty/Radio-Ink)** `C` | Firmware for the Xteink X3 and X4 e-paper display readers | 19 |
 | **[flipperusb](https://github.com/dagnazty/flipperusb)** `JavaScript` | A web-based file manager for Flipper devices. Easily browse, edit, and manage files on your Flipper device... | 16 |
@@ -86,7 +86,7 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 | [r](https://github.com/dagnazty/r) | — | 1 | `PowerShell` |
 | [fm1-esp32-unbrick](https://github.com/dagnazty/fm1-esp32-unbrick) | — | 0 | `C` |
 | [omarchy-xp-theme](https://github.com/dagnazty/omarchy-xp-theme) | — | 0 | `Shell` |
-| [PERF-1](https://github.com/dagnazty/PERF-1) | Live-performance firmware for the M-VAVE FM-1. Ten genres of self-playing music you steer... | 0 | — |
+| [PERF-1](https://github.com/dagnazty/PERF-1) | Live-performance firmware for the M-VAVE FM-1. Ten genres of self-playing music you steer... | 0 | `C` |
 | [phreak-fm1](https://github.com/dagnazty/phreak-fm1) | A live groovebox firmware for the M-VAVE FM-1 | 0 | `C` |
 | [VidBack](https://github.com/dagnazty/VidBack) | Screenshot taker and video uploader via Discord webhook.  | 0 | `PowerShell` |
 
