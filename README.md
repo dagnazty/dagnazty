@@ -50,8 +50,8 @@ I build security tools, firmware, and utilities focused on **Flipper Zero**, **M
 
 | Project | Description | Stars |
 |---------|-------------|:-----:|
-| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 84 |
-| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 50 |
+| **[Evil-BW16-Control-Panel](https://github.com/dagnazty/Evil-BW16-Control-Panel)** `Python` | A sleek and intuitive GUI built with Tkinter for managing the Evil-BW16 device, designed for ethical WiFi... | 85 |
+| **[DagShell](https://github.com/dagnazty/DagShell)** `C++` | — | 51 |
 | **[Flipper_Zero_Bad_USB](https://github.com/dagnazty/Flipper_Zero_Bad_USB)** | Flipper Zero Bad USB payloads | 46 |
 | **[Semi-Evil-M5Dial](https://github.com/dagnazty/Semi-Evil-M5Dial)** `C++` | Advanced firmware for M5Dial devices, enabling WiFi captive portals, SSID management, Karma attack tools, and... | 32 |
 | **[awokxdag](https://github.com/dagnazty/awokxdag)** `C++` | — | 26 |
